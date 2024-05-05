@@ -14,7 +14,7 @@ public class AreaPreco {
 		double metroQuadrado = sc.nextDouble();
 		
 		double area = largura * comprimento;
-		double preco = area * metroQuadrado;//ctrl + espaço para completar a palavra
+		double preco = area * metroQuadrado;
 		
 		System.out.printf("ÁREA %.2f%n", area);
 		System.out.printf("PREÇO %.2f%n", preco);
